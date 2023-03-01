@@ -22,7 +22,7 @@
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.modal-form{
+.modal-form {
   margin-top: 16px;
 }
 .modal-input {
@@ -119,14 +119,11 @@
   position: relative;
 }
 
-/* lastchild дописати для нижн марджина 8пх */
-
 .input-check {
   padding: 0px;
   gap: 8px;
   border: 1.25px solid #2e2f42;
   border-radius: 2px;
-  /* outline: none; */
 }
 .check-field {
   margin-top: 16px;
@@ -228,6 +225,7 @@
   cursor: pointer;
 }
 /* кінець мод вікна */
+
 p,
 h1,
 h2,
@@ -237,21 +235,25 @@ h5,
 h6 {
   margin: 0;
 }
+
 ul {
   margin: 0;
   padding-left: 0;
 }
+
 img {
   display: block;
   max-width: 100%;
   height: auto;
 }
+
 .container {
   max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
 }
+
 .nav {
   display: flex;
   align-items: center;
@@ -268,13 +270,16 @@ img {
   --light: #f4f4fd;
   --white-color: #ffffff;
 }
+
 body {
   font-family: "Roboto", sans-serif;
   color: #ffffff;
 }
+
 .list {
   list-style: none;
 }
+
 .link {
   text-decoration: none;
 }
