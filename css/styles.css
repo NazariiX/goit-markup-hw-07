@@ -635,8 +635,10 @@ img {
 }
 .list-customers {
   display: flex;
-  gap: 24px;
-  padding-bottom: 120px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  padding-bottom: 96px;
   padding-top: 72px;
 }
 .item-customers {
