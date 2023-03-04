@@ -1,0 +1,12 @@
+@media screen and (min-width: 480px) {
+    .container {
+      max-width: 480px;
+    }
+    .title-workers {
+      width: calc((100%-30px) / 2);
+    }
+    .list-customers {
+      gap: 72px 24px;
+    }
+  }
+  
