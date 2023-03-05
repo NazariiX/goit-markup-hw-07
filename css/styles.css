@@ -225,6 +225,12 @@
   cursor: pointer;
 }
 /* кінець мод вікна */
+.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
 
 p,
 h1,
@@ -239,14 +245,6 @@ h6 {
 ul {
   margin: 0;
   padding-left: 0;
-}
-
-.container {
-  width: 100%;
-  max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
 }
 
 .nav {
@@ -516,7 +514,6 @@ body {
 
 .img-link {
   display: block;
-
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -586,6 +583,7 @@ body {
 }
 .about-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
 }
 .team-section {
