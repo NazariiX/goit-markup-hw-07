@@ -8,10 +8,34 @@
     width: calc((100% - 24px) / 2);
     margin-bottom: 0;
   }
+  .title-workers {
+    gap: 64px 24px;
+  }
   .footer-container {
-    max-width: 736px;
-    gap: 72px;
+    max-width: 768px;
     padding-left: 108px;
     display: flex;
+    justify-content: flex-start;
+  }
+  .container-footer-soc-title {
+    text-align: left;
+  }
+  .footer-container-logo {
+    text-align: left;
+  }
+  .about-list {
+    gap: 72px 24px;
+  }
+  .thumb {
+    display: none;
+  }
+
+  .hero {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    width: 507px;
+    margin: 0 auto 40px;
   }
 }

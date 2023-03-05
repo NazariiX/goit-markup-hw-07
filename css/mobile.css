@@ -8,4 +8,7 @@
   .team-section {
     padding: 120px 82px;
   }
+  .thumb {
+    display: none;
+  }
 }
