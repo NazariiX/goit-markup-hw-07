@@ -1,8 +1,8 @@
 @media screen and (min-width: 480px) {
   .container {
-    max-width: 448px;
+    max-width: 480px;
   }
-  .list-customers {
+  /* .list-customers {
     gap: 72px 24px;
   }
   .team-section {
@@ -10,5 +10,17 @@
   }
   .thumb {
     display: none;
+  } */
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-wrap {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/dark-bg-2x.jpg);
   }
 }

@@ -1,0 +1,15 @@
+@media screen and (min-width: 1200px) {
+  .container{
+    max-width: 1158px;
+    padding: 0 15px;
+  }
+    .thumb {
+    background: #f4f4fd;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
