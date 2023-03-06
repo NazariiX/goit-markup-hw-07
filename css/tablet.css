@@ -11,6 +11,9 @@
   .title-workers {
     gap: 64px 24px;
   }
+  .title-list {
+    text-align: left;
+  }
   .footer-container {
     max-width: 768px;
     padding-left: 108px;
@@ -29,7 +32,6 @@
   .thumb {
     display: none;
   }
-
   .hero {
     font-weight: 700;
     font-size: 56px;
@@ -38,6 +40,33 @@
     width: 507px;
     margin: 0 auto 40px;
   }
-  
+  .header {
+    padding-top: 24px;
+    padding-bottom: 18px;
+  }
+  .site-nav,
+  .nav-adress {
+    display: block;
+  }
+  .site-nav {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+  }
+  .item {
+    list-style: none;
+    position: relative;
+    margin-right: 0;
+  }
+  .menu-open,
+  .mob-menu-container {
+    display: none;
+  }
+  .active-link.link.current::after {
+    bottom: -20px;
+  }
 }
-
