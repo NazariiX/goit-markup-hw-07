@@ -26,6 +26,15 @@
   .footer-container-logo {
     text-align: left;
   }
+  .subscribe-input-box {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+  .subscribe-input{
+    width: 264px;
+  }
+
   .about-list {
     gap: 72px 24px;
   }
@@ -68,5 +77,20 @@
   }
   .active-link.link.current::after {
     bottom: -20px;
+  }
+  .section-going {
+    display: none;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-wrap {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office-tablet-2x.jpg);
+    }
   }
 }

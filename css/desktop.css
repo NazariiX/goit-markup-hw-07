@@ -1,9 +1,9 @@
 @media screen and (min-width: 1200px) {
-  .container{
+  .container {
     max-width: 1158px;
     padding: 0 15px;
   }
-    .thumb {
+  .thumb {
     background: #f4f4fd;
     border-radius: 4px;
     width: 264px;
@@ -11,5 +11,79 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .list-customers {
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: nowrap;
+    padding-bottom: 0;
+  }
+  .customers-section {
+    padding-bottom: 120px;
+    padding-top: 120px;
+  }
+  .footer-container {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 120px;
+  }
+  .subscribe-form {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+  .section-going {
+    display: block;
+  }
+  .about-list {
+    display: flex;
+    column-gap: 24px;
+  }
+  .list-item {
+    list-style: none;
+    width: calc(((100% - 72px) / 4));
+  }
+  .about {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .subtitle {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text);
+  }
+  .title-list {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: left;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--dark);
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  .nav-adress {
+    display: flex;
+    gap: 40px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-wrap {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office-dekstop-2x.jpg);
+    }
   }
 }

@@ -291,8 +291,6 @@ body {
 }
 .site-nav .link {
   display: block;
-  padding-top: 20px;
-  padding-bottom: 20px;
   color: var(--dark);
   font-weight: 500;
   font-size: 16px;
@@ -379,7 +377,7 @@ body {
 .nav-adress {
   display: none;
 }
-/* вставка */
+
 .menu-open {
   border: none;
   background-color: #ffffff;
@@ -480,7 +478,7 @@ body {
   font-style: normal;
   color: #2e2f42;
 }
-/* вставка */
+
 .menu-team-soc-list {
   display: flex;
   justify-content: flex-start;
@@ -489,23 +487,10 @@ body {
 /* hero */
 
 .section-hero {
-  /* background-color: var(--dark);
-  padding-top: 188px;
-  padding-bottom: 188px;
-  text-align: center;
-  display: flex; */
-
   padding-bottom: 96px;
   padding-top: 96px;
 }
 .hero-wrap {
-  /* max-width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; */
-
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -518,6 +503,17 @@ body {
   background-size: cover;
   padding-top: 188px;
   padding-bottom: 188px;
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-wrap {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-mobile-2x.jpg);
+  }
 }
 .hero {
   font-weight: 700;
@@ -667,7 +663,9 @@ body {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-
+.section-going {
+  display: none;
+}
 .going-title {
   justify-content: center;
   display: flex;
@@ -879,6 +877,7 @@ img {
   color: #e7e9fc;
   text-align: left;
   margin-top: 16px;
+  width: 264px;
 }
 .team-soc-list {
   display: flex;
@@ -959,7 +958,14 @@ img {
 .subscribe-position {
   /* margin-left: 80px; */
 }
-.subscribe-form {
+/* .subscribe-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+} */
+
+.subscribe-input-box {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -974,7 +980,7 @@ img {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: #2e2f42;
-  padding-left: 16px;
+  padding: 16px;
 }
 
 .button-subscribe {
