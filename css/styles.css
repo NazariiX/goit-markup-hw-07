@@ -445,6 +445,9 @@ body {
   text-transform: capitalize;
   color: #2e2f42;
 }
+.mob-item:hover {
+  color: var(--pressed-state);
+}
 .mob-menu-item {
   margin-bottom: 40px;
 }
