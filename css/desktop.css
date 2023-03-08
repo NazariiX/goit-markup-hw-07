@@ -26,7 +26,7 @@
   .footer-container {
     display: flex;
     flex-wrap: nowrap;
-    gap: 120px;
+    gap: 0;
   }
   .subscribe-form {
     display: flex;
@@ -73,6 +73,32 @@
   .nav-adress {
     display: flex;
     gap: 40px;
+  }
+  .hero {
+    margin: 0 auto 48px;
+  }
+  .hero-wrap {
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
+  .team-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .footer-background {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .footer-container-logo {
+    margin-bottom: 0;
+    margin-right: 120px;
+  }
+  .container-footer-soc {
+    margin-bottom: 0;
+    margin-right: 80px;
+  }
+  .active-link.link.current::after {
+    bottom: -20px;
   }
 
   @media (min-device-pixel-ratio: 2),

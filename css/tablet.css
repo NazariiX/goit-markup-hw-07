@@ -19,6 +19,7 @@
     padding-left: 108px;
     display: flex;
     justify-content: flex-start;
+    gap: 24px;
   }
   .container-footer-soc-title {
     text-align: left;
@@ -31,7 +32,7 @@
     flex-wrap: nowrap;
     gap: 24px;
   }
-  .subscribe-input{
+  .subscribe-input {
     width: 264px;
   }
 
@@ -41,13 +42,16 @@
   .thumb {
     display: none;
   }
+  .modal {
+    width: 408px;
+  }
   .hero {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     width: 507px;
-    margin: 0 auto 40px;
+    margin: 0 auto 36px;
   }
   .header {
     padding-top: 24px;
@@ -76,7 +80,7 @@
     display: none;
   }
   .active-link.link.current::after {
-    bottom: -20px;
+    bottom: -32px;
   }
   .section-going {
     display: none;

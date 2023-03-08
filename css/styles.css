@@ -142,8 +142,11 @@
 }
 
 .modal-button {
+  display: block;
   width: 169px;
   height: 56px;
+  margin: 0 auto;
+  margin-top: 24px;
   text-align: center;
   background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -189,7 +192,10 @@
 
 .modal {
   position: absolute;
-  width: 408px;
+  width: calc(100% - 2 * 15px);
+  height: 600px;
+  max-height: 90vh;
+  overflow-y: scroll;
   min-height: 576px;
   top: 50%;
   left: 50%;
@@ -501,8 +507,8 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding-top: 112px;
+  padding-bottom: 112px;
 }
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
@@ -522,7 +528,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   width: 320px;
-  margin: 0 auto 72px;
+  margin: 0 auto 88px;
   color: var(--primery-background);
 }
 .button-hero {
@@ -750,7 +756,7 @@ body {
 }
 
 .about {
-  padding-top: 120px;
+  padding-top: 96px;
   padding-bottom: 96px;
 }
 .about-list {
@@ -811,7 +817,7 @@ img {
   flex-wrap: wrap;
   justify-content: center;
   gap: 72px 16px;
-  padding-bottom: 96px;
+  /* padding-bottom: 96px; */
 }
 .item-customers {
   width: 190px;
@@ -860,7 +866,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 24px;
 }
 .footer-container-logo {
   text-align: center;
