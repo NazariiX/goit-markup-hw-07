@@ -5,4 +5,10 @@
   .section-going {
     display: none;
   }
+  .mob-menu-contacts {
+    font-size: 36px;
+  }
+  .menu-team-soc-list {
+    gap: 56px;
+  }
 }

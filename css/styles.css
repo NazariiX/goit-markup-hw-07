@@ -196,7 +196,6 @@
   height: 600px;
   max-height: 90vh;
   overflow-y: scroll;
-  min-height: 576px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -448,6 +447,9 @@ body {
 .mob-item:hover {
   color: var(--pressed-state);
 }
+.mob-item.current {
+  color: var(--pressed-state);
+}
 .mob-menu-item {
   margin-bottom: 40px;
 }
@@ -463,7 +465,7 @@ body {
   list-style: none;
   text-decoration: none;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 26px;
   line-height: 1.11;
   letter-spacing: 0.02em;
 }
@@ -482,7 +484,7 @@ body {
   text-decoration: none;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   font-style: normal;
   color: #2e2f42;
@@ -491,7 +493,7 @@ body {
 .menu-team-soc-list {
   display: flex;
   justify-content: flex-start;
-  gap: 56px;
+  gap: 26px;
 }
 /* hero */
 
@@ -504,7 +506,7 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office.jpg);
+    url(../images/people-office-mobile-1x.jpg);
   max-width: 1440px;
   margin: 0 auto;
   background-repeat: no-repeat;
@@ -521,7 +523,6 @@ body {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-office-mobile-1x.jpg),
       url(../images/people-office-mobile-2x.jpg);
   }
 }

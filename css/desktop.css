@@ -24,8 +24,9 @@
     padding-top: 120px;
   }
   .footer-container {
+    width: 1200px;
     display: flex;
-    flex-wrap: nowrap;
+    justify-content: flex-start;
     gap: 0;
   }
   .subscribe-form {
@@ -78,9 +79,15 @@
     margin: 0 auto 48px;
   }
   .hero-wrap {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-dekstop-1x.jpg);
     padding-top: 188px;
     padding-bottom: 188px;
   }
+
   .team-section {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -121,7 +128,6 @@
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/people-office-dekstop-1x.jpg),
         url(../images/people-office-dekstop-2x.jpg);
     }
   }
