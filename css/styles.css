@@ -628,21 +628,16 @@ body {
   display: flex;
   justify-content: center;
   gap: 24px;
-  margin-bottom: 72px;
+  margin-bottom: 48px;
 }
 .btn-filter {
   background: var(--light);
   border: 1px solid var(--accent);
   border-radius: 4px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 12px 24px;
+  padding: 8px 16px;
   transition-property: color, background;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.btn-filtr-text {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -651,6 +646,7 @@ body {
   cursor: pointer;
   color: #4d5ae5;
 }
+
 .btn-filter:hover,
 .btn-filter:focus {
   color: #ffffff;
@@ -796,8 +792,8 @@ img {
 
 .main-bgcolor {
   background: #ffffff;
-  padding-top: 96px;
-  padding-bottom: 120px;
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 .customers-section {
   padding-bottom: 96px;

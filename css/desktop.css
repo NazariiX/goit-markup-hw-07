@@ -100,6 +100,18 @@
   .active-link.link.current::after {
     bottom: -20px;
   }
+  /* .filtr-container {
+    flex-wrap:wrap;
+    margin-bottom: 72px;} */
+
+  /* .main-bgcolor {
+      padding-top: 96px;
+      padding-bottom: 120px;}
+    } */
+
+  /* .btn-filter {
+      padding: 12px 24px;
+    } */
 
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
