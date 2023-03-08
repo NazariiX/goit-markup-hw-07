@@ -960,9 +960,9 @@ img {
   display: block;
   margin-left: auto;
 }
-.subscribe-position {
-  /* margin-left: 80px; */
-}
+/* .subscribe-position {
+  margin-left: 80px;
+} */
 /* .subscribe-form {
   display: flex;
   flex-wrap: wrap;
