@@ -104,16 +104,16 @@
   letter-spacing: 0.04em;
   color: #8e8f99;
   display: flex;
-  text-align: center;
 }
 
-.input-text span {
-  width: 16px;
+.input-text .check {
+  min-width: 16px;
   height: 16px;
   border: 1.25px solid #2e2f42;
   border-radius: 2px;
   margin-right: 8px;
   fill: transparent;
+  text-align: center;
 }
 
 .modal-field {
@@ -133,7 +133,7 @@
   margin-bottom: 24px;
 }
 
-.input-check:checked + .input-text span {
+.input-check:checked + .input-text .check {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
